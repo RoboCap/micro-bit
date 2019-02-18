@@ -178,19 +178,37 @@
             display.scroll("Hello World!")
         </p>
         <li>A co jeżeli wpiszemy tak?</li>
-                <p style="horizontal-align: left;" class="code">
+        <p style="horizontal-align: left;" class="code">
             display.scroll("Hello World!')
         </p>
     </ul>
 </section>
 
+<section style="text-align: left;">
+    <h2>Quest #1</h2>
+    <p><b>Cel:</b> Wyświetl obrazek Pacmana</p>
+    <p><b>Środek:</b> <a href="https://microbit-micropython.readthedocs.io/pl/latest/tutorials/images.html">https://microbit-micropython.readthedocs.io/pl/latest/tutorials/images.html</a></p>
+    <p><b>Bonus:</b> Sam narysuj obrazek</p>
+    <p><b>Czas:</b> ~8 minut</p>
+</section>
+
 <section>
-    <h2></h2>
+    <h2>Przyciski</h2>
     <ul>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>Mamy do dyspozycji dwa obiekty: <span class="code">button_a</span> i <span class="code">button_b</span></li>
+        <li>Metoda <span class="code">is_pressed()</span> mówi, czy przycisk jest wciśnięty (<span class="code">True</span>) czy nie (<span class="code">False</span>)</li>
     </ul>
+</section>
+
+<section>
+    <h2>Przyciski</h2>
+    <pre><code data-trim data-noescape contenteditable>
+while True:
+    if button_a.is_pressed():
+        display.show('a')
+    else:
+        display.clear()
+	</code></pre>
 </section>
 
 <section>
