@@ -58,9 +58,9 @@
 
 <section>
     <h2>Dobra informacja</h2>
-    <p>Staliście się właścicielami układów micro:bit :)</p>
+    <p>Wasza szkoła stała się właścicielem układów micro:bit</p>
     <img class="plain" src="img/microbit.png"/>
-    <small>Sponsor: Capgemini CCS we Wrocławiu</small>
+    <small>Sponsor: Capgemini we Wrocławiu</small>
 </section>
 
 <section data-background="rgb(23, 186, 239)">
@@ -108,108 +108,41 @@
 
 <section style="text-align: left;">
     <img class="plain" src="img/microbit-hardware.png"/>
+    <p><small><a href="https://microbit.org/pl/get-started/features/overview/">https://microbit.org/pl/get-started/features/overview/</a></small></p>
 </section>
 
 <section data-background="rgb(23, 186, 239)">
     <h2 style="color:white;">Programowanie</h2>
 </section>
 
-<section data-background-video="mov/makecode-heart.mp4" data-background-video-loop data-background-video-muted>
-   <br/>
-   <br/>
-   <br/>
-   <br/>
-   <br/>
-   <br/>
-   <br/>
-   <br/>
-   <br/>
-   <br/>
-   <h2>Edytor graficzny MakeCode</h2>
-</section>
-
 <section>
-    <h2>W języku Python</h2>
-    <img src="img/pythonHero.png" alt="" class="plain">
-    <p><small>Edytor <a href="https://python.microbit.org/v/1.1">online</a> lub lokalny (<a href="https://codewith.mu/">edytor Mu</a>)</small></p>
+    <img src="img/microbit-page.png" class="plain" style="height: auto; width: auto; max-width: 800px; max-height: 550px;">
+    <p><small><a href="https://microbit.org/pl/">https://microbit.org/pl/</a></small></p>
 </section>
 
-<section>
-    <h2>Dlaczego Python?</h2>
-    <img src="img/python.png" class="plain" style="height: auto; width: auto; max-width: 800px; max-height: 550px;">
-</section>
 
-<section>
-    <h2>Dokumentacja</h2>
-    <img src="img/dokumentacja.png" class="plain" style="height: auto; width: auto; max-width: 800px; max-height: 550px;">
-    <p><small><a href="https://microbit-micropython.readthedocs.io/en/latest/index.html">https://microbit-micropython.readthedocs.io/en/latest/index.html</a></small></p>
-</section>
+                <section data-background-video="mov/makecode-heart.mp4" data-background-video-loop data-background-video-muted>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <h2>Edytor graficzny MakeCode</h2>
+                </section>
 
-<section data-background="rgb(23, 186, 239)">
+                <section data-background="rgb(23, 186, 239)">
     <h2 style="color:white;">Do roboty! :)</h2>
     <br/>
     <p style="color: #074f66;">Cel na dzisiaj:</p>
     <p style="color: #074f66;">Rozpracować funkcjonalność modułu microbit</p>
 </section>
 
-<section>
-    <h2>Hello World!</h2>
-    <ul>
-        <li>Otwórz edytor Mu</li>
-        <li>Podłącz układ micro:bit do komputera</li>
-        <li>Wpisz:</li>
-        <p style="horizontal-align: left;" class="code">
-            from microbit import *
-            display.scroll('Hello World!')
-        </p>
-        <li>Uruchom (F3)</li>
-    </ul>
-</section>
 
-<section>
-    <h2>Błędy</h2>
-    <ul>
-        <li>Poniższy kod zadziałał</li>
-        <p style="horizontal-align: left;" class="code">
-            display.scroll('Hello World!')
-        </p>
-        <li>Ten również zadziała</li>
-        <p style="horizontal-align: left;" class="code">
-            display.scroll("Hello World!")
-        </p>
-        <li>A co jeżeli wpiszemy tak?</li>
-        <p style="horizontal-align: left;" class="code">
-            display.scroll("Hello World!')
-        </p>
-    </ul>
-</section>
-
-<section style="text-align: left;">
-    <h2>Quest #1</h2>
-    <p><b>Cel:</b> Wyświetl obrazek Pacmana</p>
-    <p><b>Środek:</b> <a href="https://microbit-micropython.readthedocs.io/pl/latest/tutorials/images.html">https://microbit-micropython.readthedocs.io/pl/latest/tutorials/images.html</a></p>
-    <p><b>Bonus:</b> Sam narysuj obrazek</p>
-    <p><b>Czas:</b> ~8 minut</p>
-</section>
-
-<section>
-    <h2>Przyciski</h2>
-    <ul>
-        <li>Mamy do dyspozycji dwa obiekty: <span class="code">button_a</span> i <span class="code">button_b</span></li>
-        <li>Metoda <span class="code">is_pressed()</span> mówi, czy przycisk jest wciśnięty (<span class="code">True</span>) czy nie (<span class="code">False</span>)</li>
-    </ul>
-</section>
-
-<section>
-    <h2>Przyciski</h2>
-    <pre><code data-trim data-noescape contenteditable>
-while True:
-    if button_a.is_pressed():
-        display.show('a')
-    else:
-        display.clear()
-	</code></pre>
-</section>
 
 <section>
     <h1>Pytania?</h1>
